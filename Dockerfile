@@ -6,6 +6,6 @@ COPY golang123 /go/golang123
 COPY install.sh /install.sh 
 COPY startup.sh /startup.sh
 
-RUN chmod +x /startup.sh && chmod +x install.sh && sh /install.sh
+RUN chmod +x /startup.sh && chmod +x /install.sh && sh /install.sh
 
 CMD ["/startup.sh"]
