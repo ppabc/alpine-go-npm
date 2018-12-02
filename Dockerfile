@@ -8,4 +8,3 @@ COPY startup.sh /startup.sh
 
 RUN chmod +x /startup.sh && chmod +x /install.sh && sh /install.sh
 
-CMD ["/startup.sh"]
